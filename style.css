@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(16, 216, 223);
+}
+h1{
+    color: blueviolet;
+}
+h2{
+    color: rgb(238, 241, 41);
+}
+a{
+    color: red;    
+}
+a:hover{
+    color: blue;
+}
+img{
+    width: 300px;
+    border: solid 4px;
+    margin-left: 100px;
+}
+.big_text{
+    font-size: 1.5rem;
+}
+@font-face{
+    font-family:'Main_font';
+    src: url(fonts/teddy-bear.ttf);
+}
+h2{
+    font-family:'Main_font';
+    font-size: 2.5rem;  
+}
